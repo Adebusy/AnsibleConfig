@@ -1,0 +1,6 @@
+---
+#ansible -m copy -a "src=/Users/alaonr/Downloads/scriiiipt.sql dest=/Users/alaonr/Desktop/ansibleTest" localhost
+- name: testapp
+  hosts: localhost
+  tasks:
+    - copy: src="/Users/alaonr/Downloads/scriiiipt.sql" dest="/Users/alaonr/Desktop/ansibleTest"
